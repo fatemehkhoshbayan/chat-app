@@ -6,7 +6,7 @@ function Welcome({ handleLogIn }) {
 
   return (
     <div className="Welcome">
-      <h2>Welcome the Chat Application</h2>
+      <h2>Welcome to the Chat Application</h2>
       <figure className="img">
         <img
           src={"static/imges/chat-icon-communication.png"}
@@ -15,7 +15,7 @@ function Welcome({ handleLogIn }) {
           height="184"
         />
       </figure>
-      <p>Sign in with Google to chat</p>
+      <p>Sign in with Google to have chit chat</p>
       <LogIn handleLogIn={handleLogIn} />
     </div>
   );
