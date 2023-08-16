@@ -1,8 +1,6 @@
 import LogIn from "./LogIn";
 
-function Welcome({ handleLogIn }) {
-
-// const chatIcon = required("../img/chat-icon-communication.jpg")
+function Welcome({}) {
 
   return (
     <div className="Welcome">
@@ -16,7 +14,7 @@ function Welcome({ handleLogIn }) {
         />
       </figure>
       <p>Sign in with Google to have chit chat</p>
-      <LogIn handleLogIn={handleLogIn} />
+      <LogIn />
     </div>
   );
 }

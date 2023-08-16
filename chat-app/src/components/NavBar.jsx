@@ -1,10 +1,10 @@
 import LogIn from "./LogIn";
 
-function NavBar({ handleLogIn }) {
+function NavBar() {
   return (
     <nav className="NavBar">
       <h2>Chat App</h2>
-      <LogIn handleLogIn={handleLogIn}/>
+      <LogIn/>
     </nav>
   );
 }
